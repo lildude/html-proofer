@@ -34,19 +34,19 @@ module HTMLProofer
 
       # fix up missing protocols
       if defined?(@href)
-        @href.insert(0, 'http:') if @href =~ %r{^//}
+        @href.insert(0, 'https:') if @href =~ %r{^//}
       else
         @href = nil
       end
 
       if defined?(@src)
-        @src.insert(0, 'http:') if @src =~ %r{^//}
+        @src.insert(0, 'https:') if @src =~ %r{^//}
       else
         @src = nil
       end
 
       if defined?(@srcset)
-        @srcset.insert(0, 'http:') if @srcset =~ %r{^//}
+        @srcset.insert(0, 'https:') if @srcset =~ %r{^//}
       else
         @srcset = nil
       end
