@@ -11,6 +11,7 @@ module HTMLProofer
       check_favicon: false,
       check_html: false,
       check_img_http: false,
+      check_iframe_http: false,
       check_opengraph: false,
       checks_to_ignore: [],
       check_sri: false,

@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: https://www.foobar.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (compatible; HTML Proofer/3.9.2; +https://github.com/gjtorikian/html-proofer)
+      Accept:
+      - application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Date:
+      - Wed, 31 Oct 2018 15:11:01 GMT
+      Content-Type:
+      - text/html
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Fri, 11 May 2012 13:52:32 GMT
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://www.foobar.com/
+  recorded_at: Wed, 31 Oct 2018 15:11:01 GMT
+recorded_with: VCR 2.9.3

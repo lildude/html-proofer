@@ -122,6 +122,10 @@ module HTMLProofer
       @check.options[:allow_hash_href]
     end
 
+    def check_iframe_http?
+      @check.options[:check_iframe_http]
+    end
+
     def check_img_http?
       @check.options[:check_img_http]
     end

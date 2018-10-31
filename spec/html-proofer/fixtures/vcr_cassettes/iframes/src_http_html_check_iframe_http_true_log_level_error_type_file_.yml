@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: http://www.youtube.com/embed/QjQDFVE5exI?rel=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (compatible; HTML Proofer/3.9.2; +https://github.com/gjtorikian/html-proofer)
+      Accept:
+      - application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      P3P:
+      - CP="This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en-GB
+        for more info."
+      X-Content-Type-Options:
+      - nosniff
+      Expires:
+      - Tue, 27 Apr 1971 19:44:06 EST
+      X-XSS-Protection:
+      - 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Wed, 31 Oct 2018 15:10:59 GMT
+      Server:
+      - YouTube Frontend Proxy
+      Set-Cookie:
+      - VISITOR_INFO1_LIVE=GjwJ9JnMEmo; path=/; domain=.youtube.com; expires=Mon,
+        29-Apr-2019 15:10:59 GMT; httponly
+      - PREF=f1=50000000; path=/; domain=.youtube.com; expires=Tue, 02-Jul-2019 03:03:59
+        GMT
+      - YSC=UMr9OaAFMBM; path=/; domain=.youtube.com; httponly
+      - GPS=1; path=/; domain=.youtube.com; expires=Wed, 31-Oct-2018 15:40:59 GMT
+      - VISITOR_INFO1_LIVE=GjwJ9JnMEmo; path=/; domain=.youtube.com; expires=Mon,
+        29-Apr-2019 15:10:59 GMT; httponly
+      Transfer-Encoding:
+      - chunked
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://www.youtube.com/embed/QjQDFVE5exI?rel=0
+  recorded_at: Wed, 31 Oct 2018 15:10:59 GMT
+recorded_with: VCR 2.9.3
